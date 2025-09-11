@@ -1,11 +1,12 @@
 // src/components/Navbar.tsx
 "use client";
 
-import { useScrolled } from "../../../shared/hooks/useScrolled.tsx";
+import { useScrolled } from "../../shared/hooks/useScrolled.tsx";
 
 const links = [
   { href: "#about", label: "Sobre" },
-  { href: "#publication", label: "Publicações" },
+  { href: "#articles", label: "Publicações" },
+  { href: "#work", label: "Trabalho" },
   { href: "#contact", label: "Contato" },
 ];
 

@@ -10,8 +10,8 @@ export default function HomeBanner({
   return (
     <section
       aria-label="Hero"
-      className="relative container w-[100vw] h-[765px] mx-auto  overflow-hidden rounded-[32px] 
-                 bg-gradient-to-br from-[#3A2317] via-[#2C1A11] to-[#1B100A] text-[#BE9D7C]">
+      className="mt-6 relative container w-[100vw] h-[765px] mx-auto  overflow-hidden rounded-[32px] 
+                 bg-gradient-to-br from-[#3A2317] via-[#2C1A11] to-[#1B100A] text-[#BE9D7C] ">
       <div className="absolute w-full h-full right-0">
         <img
           src={photo}
@@ -23,7 +23,7 @@ export default function HomeBanner({
       <div className="relative grid h-full w-full items-end md:items-center min-h-[520px] grid-cols-1 md:grid-cols-12">
         <div className="col-span-8 px-6 py-14 sm:px-10 md:px-12 lg:px-16 lg:py-20 items-start">
           <div className="flex flex-col justify-start md:items-start">
-            <h1 className="text-[54px] text-left sm:text-center sm:text-5xl font-regular leading-tight">
+            <h1 className="text-[54px] text-center md:text-left sm:text-5xl font-regular leading-tight">
               GIULIA TOGNARELLI HESSEL
             </h1>
 
