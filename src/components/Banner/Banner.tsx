@@ -10,13 +10,13 @@ export default function HomeBanner({
   return (
     <section
       aria-label="Hero"
-      className="mt-6 relative container w-[100vw] h-[765px] mx-auto  overflow-hidden rounded-[32px] 
+      className="mt-6 relative container w-[100vw] md:h-[765px] mx-auto  overflow-hidden rounded-[32px] 
                  bg-gradient-to-br from-[#3A2317] via-[#2C1A11] to-[#1B100A] text-[#BE9D7C] ">
       <div className="absolute w-full h-full right-0">
         <img
           src={photo}
           alt={alt}
-          className="w-full h-full object-right object-cover md:object-center "
+          className="w-full h-full hidden md:flex object-right object-cover md:object-center "
         />
       </div>
 
@@ -27,7 +27,7 @@ export default function HomeBanner({
               GIULIA TOGNARELLI HESSEL
             </h1>
 
-            <h2 className="text-[22px] text-left sm:text-center tracking-widest uppercase">
+            <h2 className="text-[22px] md:text-left text-center tracking-widest uppercase">
               Advocacia e Consultoria
             </h2>
 
