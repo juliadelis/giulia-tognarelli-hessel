@@ -15,7 +15,6 @@ export default function Navbar() {
   const scrolled = useScrolled(8);
   const [open, setOpen] = useState(false);
 
-  // cores dinâmicas
   const textBase = scrolled ? "text-[#311910] py-4" : "text-[#BE9D7C] py-9 ";
   const textMuted = scrolled
     ? "text-[#311910]/90 hover:text-[#311910]"
@@ -23,7 +22,6 @@ export default function Navbar() {
 
   const iconStroke = scrolled ? "#311910" : "#BE9D7C";
 
-  // lock de scroll + fechar com ESC
   useEffect(() => {
     document.body.classList.toggle("overflow-hidden", open);
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
@@ -37,15 +35,14 @@ export default function Navbar() {
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all ease-in-out",
-        open // quando o menu está aberto, força fundo claro
+        "fixed inset-x-0 top-0 z-50 transition-all ",
+        open
           ? "bg-white/95 shadow"
           : scrolled
-          ? "bg-white/90 shadow-[0_1px_0_0_rgba(255,255,255,0.06)]"
-          : "bg-transparent"
+            ? "bg-white/90 shadow-[0_1px_0_0_rgba(255,255,255,0.06)]"
+            : "bg-transparent"
       )}>
       <nav className="mx-auto flex container items-center justify-between px-4  sm:px-6 lg:px-8">
-        {/* Brand */}
         <a
           href="#"
           className={cn(
@@ -112,15 +109,6 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-
-      {/* Overlay para clicar fora e fechar (opcional, fica só no mobile) */}
-      {open && (
-        <button
-          aria-hidden
-          onClick={() => setOpen(false)}
-          className="md:hidden fixed inset-0 top-[72px] "
-        />
-      )}
     </header>
   );
 }
