@@ -6,7 +6,7 @@ export default function Articles() {
       id="articles"
       className="relative container md:mb-[100px] text-[#311910]">
       <div className="flex flex-col gap-[30px]   md:py-0 py-[30px]">
-        <div className=" m-auto  md:left-auto   mb-[30px]  text-[48px] text-center text-[#311910]  md:text-left  font-regular leading-tight">
+        <div className=" m-auto  md:left-auto   mb-[30px] text-[28px] md:text-[48px] text-center text-[#311910]  md:text-left  font-regular leading-tight">
           <h2 className="text-[#311910] md:ml-auto uppercase">
             Artigos publicados
           </h2>
@@ -14,7 +14,7 @@ export default function Articles() {
         <div className="mx-4 px-4 bg-[#EEE6DE] rounded-[32px] md:m-auto text-center md:text-left">
           <div className="flex flex-col gap-[17px]">
             <div className="  py-[40px] px-[30px] flex flex-col gap-[12px]">
-              <h3 className=" font-semibold text-[24px] uppercase">
+              <h3 className=" font-semibold text-[20px] md:text-[24px] uppercase">
                 O PENSAR COMO SUPERAÇÃO DA IDEOLOGIA NO CONTEXTO EDUCACIONAL EM
                 HANNAH ARENDT
               </h3>

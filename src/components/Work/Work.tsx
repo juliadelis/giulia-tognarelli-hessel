@@ -13,7 +13,7 @@ export default function Work() {
         />
       </div>
       <div className="grid grid-cols-1 content-center gap-[30px] md:gap-0 md:grid-cols-12 md:min-h-[554px] md:py-0 py-[30px]">
-        <div className="col-span-12 md:col-span-7 md:m-auto    mb-[30px]  text-[40px] text-center text-[#311910]  md:text-left  font-regular leading-tight">
+        <div className="col-span-12 md:col-span-7 md:m-auto    mb-[30px] text-[28px]  md:text-[40px] text-center text-[#311910]  md:text-left  font-regular leading-tight">
           <h2 className="text-[#311910] md:ml-auto uppercase">
             Direito Trabalhista
           </h2>

@@ -3,7 +3,7 @@ import AboutPhoto from "../../../public/img/about-giulia-hessel.png";
 export default function About() {
   return (
     <section id="about" className="container px-4 py-[108px]">
-      <div className="container md:left-auto  uppercase mb-[30px] md:mb-[60px] text-[48px] text-center text-[#311910]  md:text-right  font-regular leading-tight">
+      <div className="container md:left-auto  uppercase mb-[30px] md:mb-[60px] text-[28px] md:text-[48px] text-center text-[#311910]  md:text-right  font-regular leading-tight">
         <h2 className=" md:w-[80%] md:ml-auto">
           Advocacia trabalhista com estratégia, clareza e resultados.
         </h2>

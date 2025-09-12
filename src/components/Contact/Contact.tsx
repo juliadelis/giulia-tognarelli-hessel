@@ -65,7 +65,7 @@ const ContactSection: React.FC = () => {
 
       <div className="z-0 mx-4">
         <div className="z-0">
-          <h5 className="text-[48px] uppercase font-regular text-[#311910] my-2">
+          <h5 className="text-[28px] md:text-[48px] uppercase font-regular text-[#311910] my-2">
             Sua consultoria <br /> legal é aqui
           </h5>
           <p className="text-[#311910] font-montserrat mb-4 max-w-md">
