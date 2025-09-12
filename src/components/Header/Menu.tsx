@@ -16,7 +16,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   // cores dinâmicas
-  const textBase = scrolled ? "text-[#311910]" : "text-[#BE9D7C]";
+  const textBase = scrolled ? "text-[#311910] py-4" : "text-[#BE9D7C] py-9 ";
   const textMuted = scrolled
     ? "text-[#311910]/90 hover:text-[#311910]"
     : "text-[#BE9D7C]/90 hover:text-[#BE9D7C]";
@@ -37,19 +37,19 @@ export default function Navbar() {
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all",
+        "fixed inset-x-0 top-0 z-50 transition-all ease-in-out",
         open // quando o menu está aberto, força fundo claro
           ? "bg-white/95 shadow"
           : scrolled
           ? "bg-white/90 shadow-[0_1px_0_0_rgba(255,255,255,0.06)]"
           : "bg-transparent"
       )}>
-      <nav className="mx-auto flex container items-center justify-between px-4 py-9 sm:px-6 lg:px-8">
+      <nav className="mx-auto flex container items-center justify-between px-4  sm:px-6 lg:px-8">
         {/* Brand */}
         <a
           href="#"
           className={cn(
-            "text-lg font-regular tracking-widest no-underline transition-colors uppercase",
+            "transition-all delay-50 duration-200 ease-in-out text-lg font-regular tracking-widest no-underline  uppercase",
             textBase
           )}>
           Home
@@ -62,7 +62,7 @@ export default function Navbar() {
               <a
                 href={item.href}
                 className={cn(
-                  "transition-colors uppercase font-regular tracking-widest",
+                  "transition-all ease-in-out uppercase font-regular tracking-widest",
                   textMuted
                 )}>
                 {item.label}
