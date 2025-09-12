@@ -57,7 +57,7 @@ const ContactSection: React.FC = () => {
             <RiLinkedinBoxFill size={50} color="#311910" />
           </a>
 
-          <a href="https://api.whatsapp.com/send?phone=5515991867481&text=Ol%C3%A1%21+%0AGostaria+de+uma+consulta+%E2%9A%96">
+          <a href="https://api.whatsapp.com/send?phone=5515991867481&text=Ol%C3%A1%21+%0AGostaria+de+uma+consultoria+%E2%9A%96">
             <FaWhatsappSquare size={46} color="#311910" />
           </a>
         </div>
