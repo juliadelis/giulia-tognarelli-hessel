@@ -46,8 +46,8 @@ const ContactSection: React.FC = () => {
   return (
     <section
       id="contact"
-      className="container grid md:grid-cols-2 my-12 py-24 gap-9 relative">
-      <div className="flex flex-col gap-[34px]">
+      className="container grid md:grid-cols-2  my-12 py-24 gap-9 relative">
+      <div className="flex mx-4 flex-col gap-[34px]">
         <img src={ContactPhoto} alt="Contact" className="rounded-[32px]" />
         <div className="socials flex flex-row gap-9">
           <a href="https://www.instagram.com/adv.giuliahessel/">
@@ -63,7 +63,7 @@ const ContactSection: React.FC = () => {
         </div>
       </div>
 
-      <div className="z-0">
+      <div className="z-0 mx-4">
         <div className="z-0">
           <h5 className="text-[48px] uppercase font-regular text-[#311910] my-2">
             Sua consultoria <br /> legal é aqui

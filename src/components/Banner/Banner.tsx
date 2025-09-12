@@ -10,7 +10,7 @@ export default function HomeBanner({
   return (
     <section
       aria-label="Hero"
-      className="mt-6 relative container w-[100vw] md:h-[765px] mx-auto  overflow-hidden rounded-[32px] 
+      className="md:mt-6 relative container w-[100vw] md:h-[765px] mx-auto  overflow-hidden md:rounded-[32px] 
                  bg-gradient-to-br from-[#3A2317] via-[#2C1A11] to-[#1B100A] text-[#BE9D7C] ">
       <div className="absolute w-full h-full right-0">
         <img

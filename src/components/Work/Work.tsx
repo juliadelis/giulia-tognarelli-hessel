@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <section
       id="work"
-      className="relative container px-4 bg-[#EEE6DE] rounded-[32px] md:min-h-[554px] mb-[100px]">
+      className="relative container px-4 bg-[#EEE6DE] md:rounded-[32px] md:min-h-[554px] mb-[100px]">
       <div className="absolute h-[100%] left-0">
         <img
           src={backgroundImg}
