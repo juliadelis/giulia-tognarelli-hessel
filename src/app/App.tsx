@@ -7,10 +7,9 @@ import Work from "../components/Work/Work";
 import Articles from "../components/Articles/Articles";
 import Footer from "../components/Footer/Footer";
 import ContactSection from "../components/Contact/Contact";
-import { useExternalScript } from "../shared/hooks/useExternalScript";
+import WhatsAppButton from "../components/WppButton/WppButton";
 
 function App() {
-  useExternalScript("https://w.app/widget-v1/iaIHvF.js");
   return (
     <>
       <div>
@@ -33,6 +32,9 @@ function App() {
         </div>
         <div>
           <Footer />
+        </div>
+        <div>
+          <WhatsAppButton />
         </div>
       </div>
     </>
