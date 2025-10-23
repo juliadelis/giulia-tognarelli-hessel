@@ -15,6 +15,7 @@ export default function HomeBanner({
       <div className="absolute w-full h-full right-0">
         <img
           loading="lazy"
+          decoding="async"
           src={photo}
           alt={alt}
           className="w-full h-full hidden md:flex object-right object-cover md:object-center "
