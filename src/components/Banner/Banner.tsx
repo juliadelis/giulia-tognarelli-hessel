@@ -14,6 +14,7 @@ export default function HomeBanner({
                  bg-gradient-to-br from-[#3A2317] via-[#2C1A11] to-[#1B100A] text-[#BE9D7C] ">
       <div className="absolute w-full h-full right-0">
         <img
+          loading="lazy"
           src={photo}
           alt={alt}
           className="w-full h-full hidden md:flex object-right object-cover md:object-center "
